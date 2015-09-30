@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace linq_queries
 {
-   class Customer: ICustomer
+   public class Customer: ICustomer
    {
       string Name { get; set; }
       string Address { get; set; }
